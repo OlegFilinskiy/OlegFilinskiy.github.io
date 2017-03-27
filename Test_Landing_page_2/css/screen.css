@@ -11,7 +11,6 @@
 
     .header__nav {
         float: left;
-
         margin-top: 27px;
         margin-left: -4px;
     }
@@ -23,22 +22,18 @@
 
     .header__title {
         font-size: 49px;
-
         padding-bottom: 9px;
-
         letter-spacing: -.55px;
     }
 
     .header__subtitle {
         font-size: 24px;
-
         letter-spacing: 0;
     }
 
     .header__text {
         font-size: 16px;
         line-height: 26px;
-
         width: 70%;
         height: 104px;
         padding-top: 2px;
@@ -142,7 +137,6 @@
 
     .content__title--span {
         font-size: 25px;
-
         letter-spacing: -.4px;
     }
 
@@ -152,11 +146,9 @@
 
     .content__padding {
         line-height: 23px;
-
         padding-top: 10px;
         padding-bottom: 8px;
         padding-left: 72px;
-
         letter-spacing: .08px;
     }
 
@@ -267,7 +259,6 @@
     .header__logo {
         position: absolute;
         top: 0;
-
         width: 152px;
         height: 41px;
         margin-left: -96px;
@@ -280,25 +271,20 @@
         top: 95px;
         right: 0;
         left: 0;
-
         display: block;
-
         width: 246px;
         height: 257px;
         margin: 0 auto;
-
         border: 1px solid transparent;
     }
     .top--menu {
         overflow: hidden;
-
         height: 40px;
         padding-top: 5px;
     }
     .top--menu:hover {
         height: auto;
         padding-top: 5px;
-
         border: 1px solid #051116;
         -webkit-border-radius: 9px;
         -moz-border-radius: 9px;
@@ -312,36 +298,28 @@
 
     .top--menu > .menu__item {
         line-height: 39px;
-
         display: block;
-
         margin: 0;
         padding: 0;
         padding-bottom: 1px;
-
         text-align: center;
-
         border-top: 1px solid #523e5a;
         border-bottom: 1px solid #36283e;
     }
 
     .top--menu > .menu__item:first-child {
         padding-top: 1px;
-
         border-top: 0;
     }
 
     .top--menu > .menu__item:last-child {
         padding-bottom: 1px;
-
         border-bottom: 0;
     }
 
     .top--menu > .menu__item:hover {
         padding-bottom: 0;
-
         cursor: pointer;
-
         border-bottom: 2px solid #edbfff;
         background-color: rgba(0,0,0,.3);
     }
@@ -352,17 +330,13 @@
 
     .menu__link {
         padding: 2px 5px;
-
         text-decoration: none;
-
         border-bottom: 2px solid #edbfff;
     }
 
     .menu__link:hover {
         padding: 2px 5px;
-
         text-decoration: none;
-
         border-bottom: 2px solid transparent;
     }
 
@@ -378,18 +352,14 @@
 
     .header__title {
         font-size: 37px;
-
         margin-bottom: -14px;
     }
 
     .header__subtitle {
         font-size: 18px;
-
         overflow: hidden;
-
         width: 88%;
         height: 30px;
-
         letter-spacing: 0;
     }
 
@@ -424,9 +394,7 @@
         top: 267px;
         right: 0;
         left: 0;
-
         margin-left: 5px;
-
         text-align: center;
     }
 
@@ -466,7 +434,6 @@
 
     .content__block {
         display: block;
-
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -477,7 +444,6 @@
 
     .content__block:first-child {
         padding-top: 87px;
-
         background: url(../img/tip.png) 22px 12px no-repeat;
     }
 
@@ -493,7 +459,6 @@
 
     .content__title--span {
         font-size: 31px;
-
         letter-spacing: -.4px;
     }
 
@@ -546,7 +511,6 @@
     .footer__article {
         display: block;
         overflow: hidden;
-
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -568,7 +532,6 @@
     .menu--bottom .menu__item {
         display: inline;
         display: inline-block;
-
         padding: 0 6px;
     }
 
@@ -587,11 +550,9 @@
 
     .footer__copyright {
         display: block;
-
         width: 100%;
         padding-top: 18px;
         padding-right: 0;
-
         text-align: center;
     }
 }
@@ -604,7 +565,6 @@
 
     .header__slider {
         margin: 103px 0 67px;
-
         background: none;
     }
 
@@ -618,7 +578,6 @@
 
     .header__description {
         display: block;
-
         width: 60%;
         margin: 0 auto;
         padding-top: 93px;
@@ -644,7 +603,6 @@
 
     .news__block {
         position: relative;
-
         height: 136px;
         padding-left: 22px;
     }
@@ -661,7 +619,6 @@
         position: absolute;
         top: 36px;
         left: 62px;
-
         width: 64%;
         height: 75px;
         padding-top: 0;
@@ -673,7 +630,6 @@
 
     .content__block:first-child {
         padding-top: 87px;
-
         background: url(../img/tip-1.png) 22px 12px no-repeat;
     }
 
@@ -694,7 +650,6 @@
 
     .content__title--span {
         font-size: 25px;
-
         letter-spacing: -.4px;
     }
 
@@ -728,10 +683,8 @@
     .material__title {
         font-size: 16px;
         font-weight: 700;
-
         display: block;
         overflow: hidden;
-
         width: 70%;
         height: 20px;
         padding-left: 17px;
@@ -739,9 +692,7 @@
 
     .material__text {
         font-size: 16px;
-
         overflow: hidden;
-
         width: 75%;
         height: 25px;
         margin-top: 2px;
