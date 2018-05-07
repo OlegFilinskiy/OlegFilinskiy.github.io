@@ -135,14 +135,14 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 		  $(window).on('load resize',windowSize);
 		});
 
-		$(function () {
-		  $.srSmoothscroll({
-		    step: 100,
-		    speed: 500,
-		    ease: 'swing',
-		    target: $('body'),
-		    container: $(window)
-		  })
-		})
+		// $(function () {
+		//   $.srSmoothscroll({
+		//     step: 100,
+		//     speed: 500,
+		//     ease: 'swing',
+		//     target: $('body'),
+		//     container: $(window)
+		//   })
+		// })
 
 })( jQuery );
