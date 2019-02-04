@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currency converter</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <main>
+    <div class="container p-3 py-md-5 px-md-4">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h1 class="text-center mb-5 d-block mx-auto">Online currency converter</h1>
+          <p>Select the currency you are interested and the amount: *</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form class="form mb-5">
+            <div class="form-row mb-3">
+              <div class="form-group col-md-4 ">
+                <label class="mb-2" for="currencyFrom">Currency from</label>
+                <select class="form-control input" name="currencyFrom" id="currencyFrom" required>
+                  <option value="">Select</option>
+                  <option value="USD">USD</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4 ">
+                <label class="mb-2" for="currencyTo">Currency to</label>
+                <select class="form-control input" name="currencyTo" id="currencyTo" required>
+                  <option value="">Select</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label class="mb-2" for="amount">Amount</label>
+                <input type="number" class="form-control input" name="amount" id="amount" required>
+              </div>
+            </div>
+            <p class="error"></p>
+            <div class="form-row pl-1 mt-4">
+              <button type="submit" class="btn btn-primary px-5 mx-auto">Calculate</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="alert alert-success" role="alert"></div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="alert alert-warning" role="alert">
+            <strong>*</strong> In the free version of currencylayer service you can choose only one currency. Therefore, for the example, the base currency was selected USD.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/main.min.js"></script>
+</body>
+
+</html>
